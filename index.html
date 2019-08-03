@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Neural Network Neuron Image Processing</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <script src="renderer/index-listeners.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>require('bootstrap');</script>
+      </head>
+
+    <body id="body-background">
+
+      <div class="row h-100 justify-content-left align-items-left">
+          <nav class="navbar navbar-expand-sm fixed-top navbar-light justify-content-left">
+              <form class="form-inline">
+                <div class="btn-group">
+                  <a href='index.html' type="btn" class="btn">HOME</a>
+                  <div><br></div>
+                  <a href='options.html' type="btn" class="btn">OPTIONS&nbsp;&nbsp;</a>
+                  <div><br></div>
+                </div>
+              </form>
+            </nav>
+      </div>
+        <div><br></div>
+        <div><br><br><br><br></div>
+
+        <div id="processingDiv"></div>
+
+        <div class="container h-100">
+          <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-12">
+              <div class='wrapper text-center'>
+                  <button type="btn" class="btn" id="selectFolderButton">Select Image</button>
+                  <div><br></div>
+                  <button type="btn" class="btn" id="segmentRibbonButton">Segment Ribbons</button>
+                  <div><br></div>
+                  <button type="btn" class="btn" id="segmentONLButton">Segment ONL Processes</button>
+                  <div><br></div>
+                </div>
+              
+              <div class="wrapper text-left">
+                  <br>
+                  <section class="justify-content-left">
+                      <div id="terminalDiv">
+                          <div class="static">[neuro-processer.py]: Processing Information will appear below
+                              <span class="blinking-cursor" id="blockCursor">&#9608;</span>
+                            <div id="terminalExtraContentDiv">
+                            </div>
+                          </div>
+                      </div>
+                  </section>
+              </div>
+
+            </div>
+          </div>
+        </div>   
+    </body>
+
+</html>

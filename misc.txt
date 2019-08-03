@@ -1,0 +1,12 @@
+                            <div class="card justify-content-center">
+                              <div class="card-header justify-content-center ">
+                                Processing Information Will Appear Below
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Placeholder</li>
+                                <li class="list-group-item">Placeholder</li>
+                              </ul>
+                            </div>
+
+                                                <textarea rows="8" cols="60" id="terminal-info">Processing Information will appear below
+                    </textarea>
